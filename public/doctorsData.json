@@ -1,0 +1,123 @@
+[
+    {
+      "id": "doc001",
+      "image": "https://example.com/images/doctor1.jpg",
+      "name": "Dr. Sarah Khan",
+      "education": "MBBS, MD (Cardiology)",
+      "speciality": "Cardiologist",
+      "experience": "10 years",
+      "registration_number": "BMC-123456",
+      "view_details": "/doctors/doc001"
+    },
+    {
+      "id": "doc002",
+      "image": "https://example.com/images/doctor2.jpg",
+      "name": "Dr. Ahmed Rahman",
+      "education": "MBBS, MS (Orthopedics)",
+      "speciality": "Orthopedic Surgeon",
+      "experience": "8 years",
+      "registration_number": "BMC-234567",
+      "view_details": "/doctors/doc002"
+    },
+    {
+      "id": "doc003",
+      "image": "https://example.com/images/doctor3.jpg",
+      "name": "Dr. Priya Das",
+      "education": "MBBS, FCPS (Gynecology)",
+      "speciality": "Gynecologist",
+      "experience": "12 years",
+      "registration_number": "BMC-345678",
+      "view_details": "/doctors/doc003"
+    },
+    {
+      "id": "doc004",
+      "image": "https://example.com/images/doctor4.jpg",
+      "name": "Dr. Hasan Mahmud",
+      "education": "MBBS, MD (Neurology)",
+      "speciality": "Neurologist",
+      "experience": "15 years",
+      "registration_number": "BMC-456789",
+      "view_details": "/doctors/doc004"
+    },
+    {
+      "id": "doc005",
+      "image": "https://example.com/images/doctor5.jpg",
+      "name": "Dr. Nusrat Jahan",
+      "education": "MBBS, DGO",
+      "speciality": "Obstetrician",
+      "experience": "7 years",
+      "registration_number": "BMC-567890",
+      "view_details": "/doctors/doc005"
+    },
+    {
+      "id": "doc006",
+      "image": "https://example.com/images/doctor6.jpg",
+      "name": "Dr. Saif Uddin",
+      "education": "MBBS, FCPS (Medicine)",
+      "speciality": "General Physician",
+      "experience": "9 years",
+      "registration_number": "BMC-678901",
+      "view_details": "/doctors/doc006"
+    },
+    {
+      "id": "doc007",
+      "image": "https://example.com/images/doctor7.jpg",
+      "name": "Dr. Tamanna Haque",
+      "education": "MBBS, MD (Dermatology)",
+      "speciality": "Dermatologist",
+      "experience": "6 years",
+      "registration_number": "BMC-789012",
+      "view_details": "/doctors/doc007"
+    },
+    {
+      "id": "doc008",
+      "image": "https://example.com/images/doctor8.jpg",
+      "name": "Dr. Imran Hossain",
+      "education": "MBBS, MS (ENT)",
+      "speciality": "ENT Specialist",
+      "experience": "11 years",
+      "registration_number": "BMC-890123",
+      "view_details": "/doctors/doc008"
+    },
+    {
+      "id": "doc009",
+      "image": "https://example.com/images/doctor9.jpg",
+      "name": "Dr. Farzana Siddiqui",
+      "education": "MBBS, MD (Psychiatry)",
+      "speciality": "Psychiatrist",
+      "experience": "5 years",
+      "registration_number": "BMC-901234",
+      "view_details": "/doctors/doc009"
+    },
+    {
+      "id": "doc010",
+      "image": "https://example.com/images/doctor10.jpg",
+      "name": "Dr. Shahriar Kabir",
+      "education": "MBBS, MS (Urology)",
+      "speciality": "Urologist",
+      "experience": "13 years",
+      "registration_number": "BMC-012345",
+      "view_details": "/doctors/doc010"
+    },
+    {
+      "id": "doc011",
+      "image": "https://example.com/images/doctor11.jpg",
+      "name": "Dr. Rubina Akter",
+      "education": "MBBS, FCPS (Pediatrics)",
+      "speciality": "Pediatrician",
+      "experience": "14 years",
+      "registration_number": "BMC-112233",
+      "view_details": "/doctors/doc011"
+    },
+    {
+      "id": "doc012",
+      "image": "https://example.com/images/doctor12.jpg",
+      "name": "Dr. Kamrul Islam",
+      "education": "MBBS, MD (Nephrology)",
+      "speciality": "Nephrologist",
+      "experience": "10 years",
+      "registration_number": "BMC-223344",
+      "view_details": "/doctors/doc012"
+    }
+  ]
+  
