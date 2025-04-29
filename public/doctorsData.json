@@ -1,6 +1,6 @@
 [
     {
-      "id": "doc001",
+      "id": 1,
       "image": "https://i.ibb.co.com/fY3tGKtQ/Dr-Ali-Asgar-Chowdhury.png",
       "name": "Dr. Ali Asgar Chowdhury",
       "education": "MBBS, BCS(Health), FCPS(Radiotherapy)",
@@ -10,7 +10,7 @@
       "view_details": "/doctors/doc001"
     },
     {
-      "id": "doc002",
+      "id": 2,
       "image": "https://i.ibb.co.com/qYR25Txs/Dr-Md-Anisul-Islam-Khan.png",
       "name": "Dr. Anisul Islam Khan",
       "education": "MBBS, MS (Neurosurgery)",
@@ -20,7 +20,7 @@
       "view_details": "/doctors/doc002"
     },
     {
-      "id": "doc003",
+      "id": 3,
       "image": "https://i.ibb.co.com/Q7FVDQxx/Dr-Md-Ashiqur-Rahman-papel.png",
       "name": "Dr. Md Ashiqur Rahman Papel",
       "education": "MBBS, BCS(Health) MD(Gastroenterology)",
@@ -30,7 +30,7 @@
       "view_details": "/doctors/doc003"
     },
     {
-      "id": "doc004",
+      "id": 4,
       "image": "https://i.ibb.co.com/sdFdmtNj/Dr-Md-Hosne-Sadat-Patwary.png",
       "name": "Dr. Md Hosne Sadat Patwary",
       "education": "MBBS, MD (Chest Diseases)",
@@ -40,7 +40,7 @@
       "view_details": "/doctors/doc004"
     },
     {
-      "id": "doc005",
+      "id": 5,
       "image": "https://i.ibb.co.com/yBG4r0V2/Dr-Md-Kamrul-Hasan-2.png",
       "name": "Dr. Md Kamrul Hasan",
       "education": "MBBS, MD (Clinical Hematology), BCS (Health)",
@@ -50,7 +50,7 @@
       "view_details": "/doctors/doc005"
     },
     {
-      "id": "doc006",
+      "id": 6,
       "image": "https://i.ibb.co.com/DgS1dKs0/Dr-Md-Humayun-Kabir.png",
       "name": "Dr. Md Humayun Kabir",
       "education": "MBBS, BCS (Health), MD (Neurology)",
@@ -60,7 +60,7 @@
       "view_details": "/doctors/doc006"
     },
     {
-      "id": "doc007",
+      "id": 7,
       "image": "https://i.ibb.co.com/1JdpQSZd/Dr-Mir-Habibur-Rahman.png",
       "name": "Dr. Mir-Habibur Rahman",
       "education": "BSc, BDS (Dhaka), FICD",
@@ -70,7 +70,7 @@
       "view_details": "/doctors/doc007"
     },
     {
-      "id": "doc008",
+      "id": 8,
       "image": "https://i.ibb.co.com/3YF22p84/Dr-Salahuddin-Mohammed-Ali-Haider.png",
       "name": "Dr. Salahuddin Mohammed Ali Haider",
       "education": "MBBS, FCPS (Medicine), MD (Gastroenterology), FRCP (Glasg)",
@@ -80,7 +80,7 @@
       "view_details": "/doctors/doc008"
     },
     {
-      "id": "doc009",
+      "id": 9,
       "image": "https://i.ibb.co.com/rfRKRrV4/Dr-Samee-M-Adnan.png",
       "name": "Dr. Samee M Adnan",
       "education": "MBBS, BCS (Health), MD (Neurology)",
@@ -90,7 +90,7 @@
       "view_details": "/doctors/doc009"
     },
     {
-      "id": "doc010",
+      "id": 10,
       "image": "https://i.ibb.co.com/dJKBcJ2c/Dr-Syeda-Yeasmin-Akter.png",
       "name": "Dr. Syeda Yeasmin Akter",
       "education": "MBBS, BCS (Health), FCPS (Gynecology & Obstetrics)",
@@ -100,7 +100,7 @@
       "view_details": "/doctors/doc010"
     },
     {
-      "id": "doc011",
+      "id": 11,
       "image": "https://i.ibb.co.com/7xGTK7Ph/Dr-Tuhin-Shuvra-Das.png",
       "name": "Dr. Tuhin Shuvra Das",
       "education": "MBBS (CMC), MD (Nephrology, BSMMU), CCD (BIRDEM), BCS (Health)",
@@ -110,7 +110,7 @@
       "view_details": "/doctors/doc011"
     },
     {
-      "id": "doc012",
+      "id": 12,
       "image": "https://i.ibb.co.com/V0SRBJwf/Prof-Dr-Jashim-Uddin.png",
       "name": "Dr. Jashim Uddin",
       "education": "MBBS (DMC), FCPS (MEDICINE)",
