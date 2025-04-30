@@ -5,7 +5,7 @@ import { Link } from 'react-router';
 
 const links= <>
         <Link to='/'><li>Home</li></Link>
-        <Link to='/my-bookings'><li className='m-2'>My-Bookings</li></Link>
+        <Link to='/apoint-list'><li className='m-2'>Bookings-List</li></Link>
         <Link to='/blogs'><li className='m-2'>Blogs</li></Link>
         <Link to='/contact us'><li className='m-2'>Contact Us</li></Link>
         

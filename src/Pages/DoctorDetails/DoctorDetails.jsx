@@ -1,22 +1,33 @@
 import React from 'react';
-import { useLoaderData, useParams } from 'react-router';
+import { useLoaderData, useNavigate, useParams } from 'react-router';
 import { LiaRegisteredSolid } from "react-icons/lia";
 import { CiCircleAlert } from "react-icons/ci";
+import { addToStoreDB } from '../../Test/Test';
+import { toast } from 'react-toastify';
 
 
 const DoctorDetails = () => {
-    const {id} = useParams();
-    const docId=parseInt(id);
-    const data = useLoaderData()
-    const singleDoctor =data.find(doc=>doc.id === docId);
+    const navigate = useNavigate();
+    const { id } = useParams();
+    const docId = parseInt(id);
+    const data = useLoaderData();
+    const singleDoctor = data.find(doc => doc.id === docId);
 
+    const handleAppointmentBook = id => {
+        addToStoreDB(id);
+        setTimeout(() => {
+            toast.success(`Appointment booked ${name} successfully!`);
+            navigate('/apoint-list');
+        }, 100); 
+    };
+
+    if (!singleDoctor) {
+        return <div>Doctor not found.</div>;
+    }
+
+    const { image, name, education, speciality, experience, registration_number, view_details } = singleDoctor;
     const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-    const currentDay = new Date().getDay(); // 0 = Sunday, 6 = Saturday
-    
-    
-    const {image, name, education, speciality, experience, registration_number, view_details}=singleDoctor;
-    
-    
+    const currentDay = new Date().getDay();
 
     return (
         <div>
@@ -24,6 +35,7 @@ const DoctorDetails = () => {
                 <h1 className='font-bold text-2xl'>Doctor's Profile Details</h1>
                 <p className='text-gray-500'>A doctor's profile typically includes their specialty, educational background, residency, insurance networks accepted, awards, languages spoken, and links to publications. It can also showcase their clinical experience, affiliations with hospitals, and relevant skills</p>
             </div>
+
             <div className='w-10/12 mx-auto bg-gray-100 rounded-xl mt-7 grid grid-cols-1 lg:grid-cols-3 gap-6 p-10'>
                 <div className='p-10 bg-cyan-600 flex justify-center items-center rounded-xl'>
                     <img className='w-full rounded-2xl' src={image} alt="" />
@@ -63,22 +75,33 @@ const DoctorDetails = () => {
                     <p className='font-bold text-xl '>Consultation Fee: <span className='text-blue-800 font-normal'>Taka: 1000(incl.Vat) <span className='text-blue-800 font-normal' >Per Consultation</span></span></p>
                 </div>
             </div>
-            <div className='w-10/12 mx-auto bg-gray-100 rounded-xl mt-7 p-5'>
-                <h3 className='text-center text-2xl font-bold'>Book an Appointment</h3>
+
+            <div className='w-10/12 mx-auto bg-gray-100 rounded-xl mt-7 p-5 space-y-2'>
+            <h3 className='text-center text-2xl font-bold'>Book an Appointment</h3>
                 <div className='border-t-2 border-dashed border-gray-200 mt-3'></div>
-                <div className='flex justify-between'>
+                <div className='flex justify-between mt-5'>
                     <p className='font-bold'>Availability</p>
                     <button className='px-5 py-0.5 rounded-2xl bg-gradiant-lr bg-green-100 text-green-400'>Doctor Available Today</button>
                 </div>
-                <div className='border-t-2 border-dashed border-gray-200 mt-3'></div>
-                <p className='bg-orange-200 text-orange-300 rounded-4xl px-6/12'><small><CiCircleAlert />Due to high patient volume, we are currently accepting appointments for today only. We appreciate your understanding and cooperation.</small></p>
-                <button>Book Appointment Now</button>
+                <div className='border-t-2 border-dashed border-gray-200 mt-3 flex items-center justify-center'></div>
+               
+               <div className='flex items-center bg-orange-200 rounded-4xl px-10 text-black gap-4 w-9/12 mt-5'>
+               <span><CiCircleAlert /></span>
+                <p className=''><small>Due to high patient volume, we are currently accepting appointments for today only. We appreciate your understanding and cooperation.</small></p>
+                </div>
+
+                <button
+                    onClick={() => handleAppointmentBook(docId)}
+                    className='mt-10 w-full bg-blue-700 text-white py-1 rounded-4xl cursor-pointer hover:text-white hover:bg-cyan-700'>
+                    Book Appointment Now
+                </button>
             </div>
         </div>
     );
 };
 
 export default DoctorDetails;
+
 
 
 
