@@ -2,6 +2,8 @@ import React from 'react';
 import Banner from '../Components/Banner/Banner';
 import Doctors from '../Pages/Doctors/Doctors';
 import { useLoaderData } from 'react-router';
+import SetCount from '../SetCount/StatsCounter';
+import StatsCounter from '../SetCount/StatsCounter';
 
 const Home = () => {
 
@@ -11,6 +13,7 @@ const Home = () => {
         <div>
             <Banner></Banner>
             <Doctors doctorsData={doctorsData}></Doctors>
+            <StatsCounter></StatsCounter>
         </div>
     );
 };

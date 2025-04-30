@@ -60,8 +60,8 @@ const DoctorDetails = () => {
                                     key={day}
                                     className={`px-4 py-1 rounded-full text-sm font-medium 
                                         ${index === currentDay 
-                                        ? 'text-orange-500 bg-orange-100' // Current day style
-                                        : 'text-gray-400 bg-cyan-50'    // Other days style (optional)
+                                        ? 'text-orange-500 bg-orange-100' 
+                                        : 'text-gray-400 bg-cyan-50'    
                                         }`}
                                     >
                                     {day}
