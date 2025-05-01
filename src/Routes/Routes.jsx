@@ -5,8 +5,7 @@ import Home from "../Home/Home";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 import DoctorDetails from "../Pages/DoctorDetails/DoctorDetails";
 import ApointList from "../Pages/ApointList/ApointList";
-
-
+import Blogs from "../Pages/Blogs/Blogs";
 
 
 export const router = createBrowserRouter([
@@ -25,6 +24,11 @@ export const router = createBrowserRouter([
           path: 'apoint-list',
           loader: () => fetch('/doctorsData.json'),
           element: <ApointList />
+        },
+        {
+          path: 'blogs',
+          loader: () => fetch('/blogsData.json'),
+          Component: Blogs
         },
         {
           path:  '/doctorDetails/:id',

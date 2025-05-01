@@ -53,7 +53,7 @@ const DoctorDetails = () => {
                     <div className='border-t-2 border-dashed border-gray-200 '></div>
                     <div className='flex items-center mt-10 gap-3'>
                         <p>Availability </p>
-                        {/*  */}
+                        
                         <div className="flex gap-2">
       
                                 {days.map((day, index) => (<div
@@ -68,8 +68,6 @@ const DoctorDetails = () => {
                                     </div>
                                 ))}
                         </div>
-
-                            {/*  */}
                     </div>
 
                     <p className='font-bold text-xl '>Consultation Fee: <span className='text-blue-800 font-normal'>Taka: 1000(incl.Vat) <span className='text-blue-800 font-normal' >Per Consultation</span></span></p>

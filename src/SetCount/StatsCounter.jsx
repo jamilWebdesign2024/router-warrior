@@ -6,7 +6,7 @@ const StatCard = ({ icon, end, label, duration = 2000 }) => {
   useEffect(() => {
     let start = 0;
     const totalSteps = end;
-    const stepTime = Math.max(duration / totalSteps, 1); // Prevent zero or negative intervals
+    const stepTime = Math.max(duration / totalSteps, 1); 
 
     const timer = setInterval(() => {
       start += 1;
@@ -20,7 +20,7 @@ const StatCard = ({ icon, end, label, duration = 2000 }) => {
   }, [end, duration]);
 
   return (
-    <div className="bg-gray-100 rounded-xl p-5 text-center shadow">
+    <div className="bg-cyan-50 rounded-xl p-5 text-center shadow">
       <div className="text-3xl mb-2">{icon}</div>
       <h2 className="text-2xl font-bold">{count}+</h2>
       <p className="text-gray-500">{label}</p>
